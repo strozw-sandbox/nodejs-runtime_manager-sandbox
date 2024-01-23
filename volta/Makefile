@@ -1,6 +1,6 @@
 IMAGE_NAME = "volta-sandbox"
 
-build: Dockerfile
+build: 
 	docker build -t $(IMAGE_NAME) .
 
 run:
