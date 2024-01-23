@@ -1,4 +1,4 @@
-# sandbox for multi nodejs runtime manager
+# Sandbox for multiple Node.js runtime managers
 
 ## Setup
 
