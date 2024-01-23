@@ -1,4 +1,4 @@
-IMAGE_NAME = "playground-asdf-nodejs"
+IMAGE_NAME = "asdf-nodejs-sandbox"
 
 build:
 	docker build -t $(IMAGE_NAME) .
