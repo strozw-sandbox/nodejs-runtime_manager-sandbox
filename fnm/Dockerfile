@@ -16,4 +16,6 @@ RUN echo '(eval "$(fnm env --use-on-cd)"' >> ~/.bashrc
 
 WORKDIR /app
 
+ENV TERM xterm-256color
+
 CMD ["/bin/bash", "-l"]
