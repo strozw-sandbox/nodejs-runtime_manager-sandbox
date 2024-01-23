@@ -19,4 +19,6 @@ RUN ~/.asdf/bin/asdf plugin add nodejs
 
 WORKDIR /app
 
-CMD ["env TERM=xterm-256color ", "/bin/bash", "-l"]
+ENV TERM xterm-256color
+
+CMD ["/bin/bash", "-l"]
