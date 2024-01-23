@@ -1,4 +1,4 @@
-IMAGE_NAME = "playground-volta"
+IMAGE_NAME = "volta-sandbox"
 
 build: Dockerfile
 	docker build -t $(IMAGE_NAME) .
