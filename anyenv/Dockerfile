@@ -19,4 +19,6 @@ RUN ~/.anyenv/bin/anyenv install nodenv
 
 WORKDIR /app
 
+ENV TERM xterm-256color
+
 CMD ["/bin/bash", "-l"]
