@@ -1,7 +1,5 @@
 # Sandbox for multiple Node.js runtime managers
 
-## Setup
-
 ## Usage
 
 ### 1. Build Image
