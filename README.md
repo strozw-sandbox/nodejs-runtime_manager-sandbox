@@ -4,13 +4,13 @@
 
 ### 1. Build Image
 
-#### 1.A build all images
+#### 1.A. build all images
 
 ```sh
 make build
 ```
 
-#### 1.B build specific image
+#### 1.B. build specific image
 
 If you want build `mise` image.
 
